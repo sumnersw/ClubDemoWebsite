@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="author" content="Stephen Sumner">
+	<title>Robo Tech</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<header>
+		<nav class="menubar fixed-top">
+			<span class="menu-button">
+				<a href="#" onclick="openMenuBar()">
+					<svg width="30" height="30">
+						<path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+						<path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+						<path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+					</svg>
+				</a>
+			</span>
+
+			<ul class="menubar-item">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about-us">About</a></li>
+				<li><a href="#current-projects">Current Projects</a></li>
+				<li><a href="#past-projects">Past Projects</a></li>
+				<li><a href="#contact-us">Contact</a></li>
+			</ul>
+		</nav>
+
+		<div id="mobile-drop-down" class="dropdown-menu">
+			<a href="#" class="close-button" onclick="closeMenuBar()">
+				<svg width="30" height="30">
+					<path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+					<path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+					<path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+				</svg>
+			</a>
+			<a href="#home" onclick="closeMenuBar()">Home</a>
+			<a href="#about-us" onclick="closeMenuBar()">About</a>
+			<a href="#current-projects" onclick="closeMenuBar()">Current Projects</a>
+			<a href="#past-projects" onclick="closeMenuBar()">Past Projects</a>
+			<a href="#contact-us" onclick="closeMenuBar()">Contact</a>
+		</div>
+	</header>
+	
+	<div class="banner" id="home">
+		<h1 class="banner-text">Robo Tech</h1>
+		<p class="sub-header">A student club at Florida Tech</p>
+	</div>
+
+	<section class="section1" id="about-us">
+		<div class="container">
+			<div class="column-large">
+				<div class="image-float">
+					<img src="images/image1a.jpg" alt="This is a club image">
+				</div>
+				<div class="contentBox">
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section2 clearfix" id="current-projects">
+		<div class="container">
+			<div class="row">
+
+				<div class="column-small">
+					<div class="image-box">
+						<img src="images/image2a.jpg" class="solid-image">
+					</div>
+					<div class="content">
+						<h3>Project 1</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							<a href="ExampleProject.html" class="btn ">Read More</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="column-small">
+					<div class="image-box">
+						<img src="images/image3a.jpg" class="solid-image">
+					</div>
+					<div class="content">
+						<h3>Project 2</h3>
+						<p>Lorem ipsem dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							<a href="ExampleProject.html" class="btn">Read More</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="column-small">
+					<div class="image-box">
+						<img src="images/image4a.jpg" class="solid-image">
+					</div>
+					<div class="content">
+						<h3>Project 3</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							<a href="ExampleProject.html" class="btn">Read More</a>
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="section3" id="past-projects">
+		<div class="container">
+			<div class="row">
+
+				<div class="column-small">
+					<div class="image-box">
+						<img src="images/image5a.jpg" class="solid-image">
+					</div>
+					<div class="content">
+						<h3>Previous Project 1</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							<a href="ExampleProject.html" class="btn ">Read More</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="column-small">
+					<div class="image-box">
+						<img src="images/image6a.jpg" class="solid-image">
+					</div>
+					<div class="content">
+						<h3>Previous Project 2</h3>
+						<p>Lorem ipsem dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							<a href="ExampleProject.html" class="btn">Read More</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="column-small">
+					<div class="image-box">
+						<img src="images/image7a.jpg" class="solid-image">
+					</div>
+					<div class="content">
+						<h3>Previous Project 3</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							<a href="ExampleProject" class="btn">Read More</a>
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="section4" id="contact-us">
+		<div class="container">
+			<div class="row">
+				<div class="spanner">
+					<h1><i>Stay in touch</i></h1>
+					<p class="sub-header"><i>We have several ways for you to stay in touch with us.</i></p>
+				</div>
+				<div class="column-small column-box">
+					<h3>Address and Email</h3>
+					<p>150 W. University Blvd</p>
+					<p>Melbourne, FL 32901</p>
+					<p>Robo-Tech@fit.edu</p>
+					<p>(321) 555-5555</p>
+				</div>
+				<div class="column-small column-box">
+					<h3>Newsletter Signup</h3>
+				</div>
+				<div class="column-small column-box">
+					<h3>Slack Server Invitation</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="brand">
+		<p>Website designed by <a href="#">Stephen Sumner</a></p>
+	</footer>
+
+
+
+	<script src="dom.js"></script>
+</body>
+
+</html>
